@@ -1,5 +1,4 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
 <template>
@@ -7,6 +6,6 @@ import TheWelcome from '../components/TheWelcome.vue'
     <button class="btn btn-primary" type="button">
       Primary button
     </button>
-    <TheWelcome />
+    <i class="bi bi-alarm-fill text-warning" style="font-size: 30px;" />
   </main>
 </template>
