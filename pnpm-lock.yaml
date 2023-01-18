@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@fontsource/open-sans': ^4.5.13
   '@popperjs/core': ^2.11.6
   '@rushstack/eslint-patch': ^1.2.0
   '@vitejs/plugin-vue': ^4.0.0
@@ -21,6 +22,7 @@ specifiers:
   vue-router: ^4.1.6
 
 dependencies:
+  '@fontsource/open-sans': 4.5.13
   '@popperjs/core': 2.11.6
   bootstrap: 5.2.3_@popperjs+core@2.11.6
   bootstrap-icons: 1.10.3
@@ -288,6 +290,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@fontsource/open-sans/4.5.13:
+    resolution: {integrity: sha512-/UzqP7ZFk145XAq8KG4pvFPP7UQhtreDGXgqXZjagCDreKxcrhwn/x7DYz9rPcycWkLUVApIybcoczGZiM0cRg==}
+    dev: false
 
   /@humanwhocodes/config-array/0.11.8:
     resolution: {integrity: sha512-UybHIJzJnR5Qc/MsD9Kr+RpO2h+/P1GhOwdiLPXK5TWk5sgTdu88bTD9UP+CKbPPh5Rni1u0GjAdYQLemG8g+g==}

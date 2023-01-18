@@ -1,92 +1,48 @@
-<script setup>
-  import { RouterLink, RouterView } from "vue-router";
-</script>
-
 <template>
-  <header>
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="@/assets/logo.svg"
-      width="125"
-      height="125"
-    />
-
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">
-          Home
-        </RouterLink>
-        <RouterLink to="/about">
-          About
-        </RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
+  <section>
+    <section class="app__container">
+      <AppHeader />
+      <main class="app__main">
+        <RouterView />
+      </main>
+    </section>
+    <AppSidebar />
+  </section>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
+<script setup>
+  import { RouterView } from "vue-router";
+  import AppSidebar from "@/components/AppSidebar.vue";
+  import AppHeader from "@/components/AppHeader.vue";
+</script>
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+<style lang="scss">
+.app {
+  &__container {
+    background-color: var(--c-light-01);
+    display: grid;
+    height: 100vh;
+    grid-auto-columns: 1fr;
+    grid-template-rows: 62px 1fr;
+    gap: 0px 0px;
+    position: relative;
   }
 
-  .logo {
-    margin: 0 2rem 0 0;
+  &__main {
+    grid-area: 2 / 1 / 3 / 2;
+    padding: 0;
   }
+}
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+@media (min-width: 992px) {
+  .app {
+    &__container {
+      margin-left: 70px;
+    }
 
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
+    &__main {
+      padding: 0 20px 30px 20px;
+    }
   }
 }
 </style>
