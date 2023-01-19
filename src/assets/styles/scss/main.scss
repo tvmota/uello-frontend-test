@@ -1,7 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 @import "@fontsource/open-sans/400.css";
+@import "~mapbox-gl/dist/mapbox-gl.css";
 @import "./variables/colors";
 @import "./variables/fonts";
+
 
 :root {
   @include colors-root;

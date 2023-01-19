@@ -1,6 +1,6 @@
 <template>
   <header class="app__header">
-    <div class="app__header__content">
+    <nav class="app__header__content">
       <h2 class="app__header__content--text fs-5 text-uppercase fw-semibold">
         Fulano de tal da silva
       </h2>
@@ -9,7 +9,7 @@
         class="app__header__content--logo object-fit-cover"
         src="@/assets/images/logo.svg"
       />
-    </div>
+    </nav>
   </header>
 </template>
 

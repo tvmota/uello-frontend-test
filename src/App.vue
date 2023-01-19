@@ -30,7 +30,8 @@
 
   &__main {
     grid-area: 2 / 1 / 3 / 2;
-    padding: 0;
+    position: relative;
+    padding: 0 0 40px 0;
   }
 }
 
