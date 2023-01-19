@@ -24,4 +24,18 @@
       position: relative;
     }
   }
+
+  @media (min-width: 992px) {
+    .app__home {
+      .btn-help {
+        display: none;
+      }
+
+      .dispatch-info {
+        .btn-help {
+          display: flex;
+        }
+      }
+    }
+  }
 </style>
