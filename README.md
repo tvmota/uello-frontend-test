@@ -1,4 +1,6 @@
-# uello-frontend-test
+# uello-frontend-test [![Netlify Status](https://api.netlify.com/api/v1/badges/8806e9cf-afbb-47b7-9e6c-13c6da3f7d1f/deploy-status)](https://app.netlify.com/sites/frontend-test-uello/deploys)
+
+### [link para vizualização](https://frontend-test-uello.netlify.app/)
 
 Projeto para avaliação para vaga de front-end na Uello criado com o scafolding do [Vue3](https://github.com/vuejs/create-vue)
 
