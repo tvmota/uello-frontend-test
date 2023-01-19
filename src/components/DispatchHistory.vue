@@ -1,7 +1,7 @@
 <template>
   <div class="dispatch__history d-flex flex-column">
     <div class="dispatch__history__title d-flex justify-content-center align-items-center">
-      <HistoryIcon custom-height="14" custom-width="14" />
+      <HistoryIcon :custom-height="14" :custom-width="14" />
       <h4 class="dispatch__history__title--txt text-capitalize fw-semibold">
         histórico
       </h4>

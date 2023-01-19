@@ -19,7 +19,7 @@
 
       const map = new mapboxgl.Map({
         container: "mapContainer",
-        style: "mapbox://styles/mapbox/streets-v12",
+        style: "mapbox://styles/mapbox/streets-v12?optimize=true",
         center: [
           locationStore.coordinates.lng,
           locationStore.coordinates.lat,

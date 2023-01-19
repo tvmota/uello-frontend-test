@@ -5,7 +5,7 @@ import { getCoordinates } from "../services/Location";
 export const useLocationStore = defineStore("location", () => {
   const coordinates = ref({});
 
-  async function setCoordinates () {
+  async function setCoordinates() {
     try {
       const coords = await getCoordinates();
       const { geometry = {} } = coords;
@@ -21,3 +21,7 @@ export const useLocationStore = defineStore("location", () => {
 
   return { coordinates, setCoordinates };
 });
+
+export default {
+  useLocationStore,
+};

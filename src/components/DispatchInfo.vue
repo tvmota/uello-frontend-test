@@ -27,7 +27,7 @@
     </div>
 
     <div class="dispatch-info__time d-flex">
-      <ClockIcon class="dispatch-info__time--icon" custom-height="16" custom-width="16" />
+      <ClockIcon class="dispatch-info__time--icon" :custom-height="16" :custom-width="16" />
       <h4 class="dispatch-info__time--txt fw-semibold">
         horário estimado: 14:45 - 16:58
       </h4>

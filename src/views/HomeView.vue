@@ -4,6 +4,7 @@
     <AppMap />
     <MiniDeliveryCard />
     <MiniDisapatchInfo />
+    <BtnHelp />
   </div>
 </template>
 
@@ -12,6 +13,7 @@
   import DispatchInfo from "@/components/DispatchInfo.vue";
   import MiniDeliveryCard from "../components/MiniDeliveryCard.vue";
   import MiniDisapatchInfo from "../components/MiniDisapatchInfo.vue";
+  import BtnHelp from "../components/BtnHelp.vue";
 
   const AppMap = defineAsyncComponent(() => import("@/components/AppMap.vue"));
 </script>

@@ -11,4 +11,8 @@ export async function getCoordinates() {
   } catch (err) {
     return err;
   }
+}
+
+export default {
+  getCoordinates,
 };

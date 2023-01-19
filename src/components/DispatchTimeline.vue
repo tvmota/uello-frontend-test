@@ -4,29 +4,29 @@
       <div class="dispatch__timeline__container__item dispatch__timeline__container__item--active" data-title="Solicitação">
         <InboxIcon
           class="dispatch__timeline__container__item--icon dispatch__timeline__container__item--icon-active"
-          custom-height="15"
-          custom-width="15"
+          :custom-height="15"
+          :custom-width="15"
         />
       </div>
       <div class="dispatch__timeline__container__item dispatch__timeline__container__item--active" data-title="Pedido em separação">
         <TimerIcon
           class="dispatch__timeline__container__item--icon dispatch__timeline__container__item--icon-active"
-          custom-height="15"
-          custom-width="15"
+          :custom-height="15"
+          :custom-width="15"
         />
       </div>
       <div class="dispatch__timeline__container__item dispatch__timeline__container__item--active" data-title="Motorista em trânsito">
         <CarIcon
           class="dispatch__timeline__container__item--icon dispatch__timeline__container__item--icon-active"
-          custom-height="15"
-          custom-width="15"
+          :custom-height="15"
+          :custom-width="15"
         />
       </div>
       <div class="dispatch__timeline__container__item" data-title="Pedido entregue">
         <CheckIcon
           class="dispatch__timeline__container__item--icon"
-          custom-height="15"
-          custom-width="15"
+          :custom-height="15"
+          :custom-width="15"
         />
       </div>
     </div>

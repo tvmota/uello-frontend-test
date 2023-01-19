@@ -20,8 +20,8 @@
 </template>
 
 <script setup>
- import DispatchDonut from "./DispatchDonut.vue";
- import DispatchTimeline from "./DispatchTimeline.vue";
+  import DispatchDonut from "./DispatchDonut.vue";
+  import DispatchTimeline from "./DispatchTimeline.vue";
 </script>
 
 <style lang="scss" scoped>

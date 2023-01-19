@@ -1,41 +1,46 @@
 # uello-frontend-test
 
-This template should help get you started developing with Vue 3 in Vite.
+Projeto para avaliação para vaga de front-end na Uello criado com o scafolding do [Vue3](https://github.com/vuejs/create-vue)
 
-## Recommended IDE Setup
+Instruções para execução
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+<span style="color:#EA394F;font-weight:600">⚠️ Importante: Para executar o projeto localmente(dev) é necessário criar um arquivo.env e .env.local e inserir a variável de amb com a key do mapbox utlizado para exibir o mapa, no projeto existe o arquivo .env.example com key que deve ser replicada nos arquivos .env e .env.local.</span>
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+##### Instalação
+```bash
+$ git clone https://github.com/tvmota/uello-frontend-test
+$ cd uello-frontend-test
+#----------Execução_Com_NPM---------
+$ npm i
+#----------Execução_Com_YARN---------
+$ yarn
+```
+##### Execução do projeto para desenvolvimento
+```bash
+#----------Execução_Com_NPM---------
+$ npm run dev
+#----------Execução_Com_YARN---------
+$ yarn dev
+```
+##### Geração do build para deploy
+```bash
+#----------Execução_Com_NPM---------
+$ npm run build
+#----------Execução_Com_YARN---------
+$ yarn build
+```
+##### Preview local do build
+```bash
+#----------Execução_Com_NPM---------
+$ npm run preview
+#----------Execução_Com_YARN---------
+$ yarn preview
 ```
 
-### Compile and Hot-Reload for Development
+### Stack utilizada
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- **Framework UI**: [Vuejs](https://vuejs.org/)
+- **CSS UI**: [Bootstrap](https://getbootstrap.com/)
+- **Roteamento**: [vue-router](https://router.vuejs.org/)
+- **Bundler**: [Vite](https://vitejs.dev/)
+- **Processador CSS**: [Sass](https://sass-lang.com/)

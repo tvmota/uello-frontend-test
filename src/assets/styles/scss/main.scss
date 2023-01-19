@@ -1,8 +1,21 @@
-@import "~bootstrap/scss/bootstrap";
+//@import "~bootstrap/scss/bootstrap";
 @import "@fontsource/open-sans/400.css";
 @import "~mapbox-gl/dist/mapbox-gl.css";
 @import "./variables/colors";
 @import "./variables/fonts";
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/helpers";
+@import "~bootstrap/scss/utilities/api";
+
+@import "~bootstrap/scss/_buttons";
 
 
 :root {
